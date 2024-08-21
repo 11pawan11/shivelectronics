@@ -26,10 +26,10 @@ const Welcomepage = () => {
       </div>
       
       <div className="relative p-8 max-w-3xl w-full bg-gradient-to-br from-gray-800 via-gray-900 to-gray-700 rounded-3xl shadow-2xl transform transition-transform duration-500 hover:scale-105">
-        <p className="text-6xl font-extrabold text-white mb-6 leading-snug animate-text-gradient animate-slide-up">
+        <p className="lg:text-6xl sm:text-5xl font-extrabold text-white mb-6 leading-snug animate-text-gradient animate-slide-up">
           Welcome, we are here at your service!
         </p>
-        <p className="text-2xl text-white mt-4">
+        <p className="lg:text-2xl sm:text-lg text-white mt-4">
           <TypeWriter
             text={"We are happy to serve you and fulfill your demands"}
             delay={50}

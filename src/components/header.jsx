@@ -2,8 +2,8 @@ import Homepage from "./homepage";
 import Aboutus from "./aboutus";
 import Ourservices from "./our-services";
 import Welcomepage from "./welcomepage";
-import Footer from "./footer";
 import Products from "./products";
+import ContactUsWithFooter from "./footer";
 
 const Header = () => {
   return (
@@ -12,8 +12,8 @@ const Header = () => {
       <Welcomepage />
       <Aboutus />
       <Ourservices />
-      <Products/>
-      <Footer/>
+      <Products />
+      <ContactUsWithFooter />
     </div>
   );
 };
